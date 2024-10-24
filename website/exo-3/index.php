@@ -17,6 +17,15 @@
             foreach ($tabStudents as $studentName) {
                 echo $studentName . "<br/>";
             } ?></p>
+        <p>
+            <?php
+            echo ("Ne pas enlever le commentaire ci dessous ⚠️")
+            // $compteur = 0;
+            // while ($compteur = 10) {
+            //     echo ("coucou");
+            // }
+            ?>
+        </p>
     </div>
 </body>
 
