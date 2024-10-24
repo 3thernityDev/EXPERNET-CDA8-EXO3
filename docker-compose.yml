@@ -1,11 +1,11 @@
 services:
     apache:
-        image: httpd:latest
+        image: php:apache
         container_name: php-test
         ports:
             - '8282:80'
         volumes:
-            - ./website:/usr/local/apache2/htdocs
+            - ./website:/var/www/html
     db:
         image: mariadb:latest
         restart: always
