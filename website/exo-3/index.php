@@ -13,3 +13,12 @@
 </body>
 
 </html>
+
+<?php
+$random = rand(1, 2);
+if ($random == 1) {
+    echo ("<body class=light></body>");
+} else {
+    echo ("<body class=dark></body>");
+}
+?>

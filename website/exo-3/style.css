@@ -11,6 +11,14 @@ body {
     justify-content: center;
 }
 
+.light {
+    background-color: whitesmoke;
+}
+
+.dark {
+    background-color: black;
+}
+
 h1 {
     display: flex;
     align-items: center;
