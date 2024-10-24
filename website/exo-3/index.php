@@ -27,6 +27,14 @@
             ?>
         </p>
     </div>
+
+    <div class="formContainer">
+        <form method="get" action="">
+            <input type="text" name="username" id="username">
+            <input type="password" name="mdp" id="mdp">
+            <input type="submit" value="ok">
+        </form>
+    </div>
 </body>
 
 </html>
@@ -39,6 +47,5 @@ if ($random == 1) {
 } else {
     echo ("<body class=dark></body>");
 }
-
-
+phpinfo();
 ?>
