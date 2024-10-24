@@ -47,5 +47,5 @@ if ($random == 1) {
 } else {
     echo ("<body class=dark></body>");
 }
-phpinfo();
+phpinfo()
 ?>
