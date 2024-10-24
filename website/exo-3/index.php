@@ -9,7 +9,15 @@
 </head>
 
 <body>
-    <h1><?php echo ("La CDA8 vous souhaite une exelente journée ! ") ?></h1>
+    <div class="container">
+
+        <h1><?php echo ("La CDA8 vous souhaite une exelente journée ! ") ?></h1>
+        <p><?php // FOREACH TEST
+            $tabStudents = array("Julien", "Lou", "Dorian", "Jerremy");
+            foreach ($tabStudents as $studentName) {
+                echo $studentName . "<br/>";
+            } ?></p>
+    </div>
 </body>
 
 </html>
@@ -23,9 +31,5 @@ if ($random == 1) {
     echo ("<body class=dark></body>");
 }
 
-// FOREACH TEST
-$tabStudents = array("Julien", "Lou", "Dorian", "Jerremy");
-foreach ($tabStudents as $studentName) {
-    echo $studentName . "<br/>";
-}
+
 ?>

@@ -13,10 +13,15 @@ body {
 
 .light {
     background-color: whitesmoke;
+    color: black;
 }
 
 .dark {
     background-color: black;
+}
+
+.dark .container p {
+    color: whitesmoke;
 }
 
 h1 {
