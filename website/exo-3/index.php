@@ -15,10 +15,17 @@
 </html>
 
 <?php
+// RANDOM BG
 $random = rand(1, 2);
 if ($random == 1) {
     echo ("<body class=light></body>");
 } else {
     echo ("<body class=dark></body>");
+}
+
+// FOREACH TEST
+$tabStudents = array("Julien", "Lou", "Dorian", "Jerremy");
+foreach ($tabStudents as $studentName) {
+    echo $studentName . "<br/>";
 }
 ?>
